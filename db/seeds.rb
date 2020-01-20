@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Card.destroy_all
+
 Card.create(
     name: "Your Name",
     title: "Business Title",
@@ -76,44 +78,44 @@ Card.create(
 )
 
 
-# Card.create(
-#     name: "Your Name",
-#     title: "Business Title",
-#     company: "Company Name",
-#     phone_number: 1234567890,
-#     email: "Email",
-#     linkedin: "LinkedIn",
-#     website: "Website",
-#     address: "Company Address",
-#     logo: "Image URL",
-#     style: "basic white"
-# )
+Card.create(
+    name: "Your Name",
+    title: "Business Title",
+    company: "Company Name",
+    phone_number: 1234567890,
+    email: "Email",
+    linkedin: "LinkedIn",
+    website: "Website",
+    address: "Company Address",
+    logo: "Image URL",
+    style: "basic yellow"
+)
 
 
-# Card.create(
-#     name: "Your Name",
-#     title: "Business Title",
-#     company: "Company Name",
-#     phone_number: 1234567890,
-#     email: "Email",
-#     linkedin: "LinkedIn",
-#     website: "Website",
-#     address: "Company Address",
-#     logo: "Image URL",
-#     style: "basic white"
-# )
+Card.create(
+    name: "Your Name",
+    title: "Business Title",
+    company: "Company Name",
+    phone_number: 1234567890,
+    email: "Email",
+    linkedin: "LinkedIn",
+    website: "Website",
+    address: "Company Address",
+    logo: "Image URL",
+    style: "basic cream"
+)
 
 
-# Card.create(
-#     name: "Your Name",
-#     title: "Business Title",
-#     company: "Company Name",
-#     phone_number: 1234567890,
-#     email: "Email",
-#     linkedin: "LinkedIn",
-#     website: "Website",
-#     address: "Company Address",
-#     logo: "Image URL",
-#     style: "basic white"
-# )
+Card.create(
+    name: "Your Name",
+    title: "Business Title",
+    company: "Company Name",
+    phone_number: 1234567890,
+    email: "Email",
+    linkedin: "LinkedIn",
+    website: "Website",
+    address: "Company Address",
+    logo: "Image URL",
+    style: "basic orange"
+)
 
