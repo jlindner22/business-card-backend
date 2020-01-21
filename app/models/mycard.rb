@@ -1,0 +1,2 @@
+class Mycard < ApplicationRecord
+end
