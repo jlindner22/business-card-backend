@@ -9,6 +9,11 @@ class MycardsController < ApplicationController
         mycard = Mycard.create(mycard_params)
         render json: mycard, except: [:created_at, :updated_at]
     end
+
+    def destroy
+        mycard = Mycard.find(params[:id])
+        mycard.destroy
+    end
     
     private
     
